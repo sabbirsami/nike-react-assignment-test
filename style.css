@@ -1,0 +1,144 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+/* COMMON  */
+.buy_now_btn{
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    padding: 18px 33px;
+    border: 0;
+}
+.buy_now_btn img{
+    width: 24px;
+    height: auto;
+}
+
+/* NAVBER  */
+.site_logo {
+    width: 291px;
+}
+.nav_section ul li a{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #3C3C3C !important;
+    padding: 10px 25px;
+    margin-right: 30px;
+    font-weight: 500;
+}
+.nav_section{
+    background-color: #FFFBF0;
+    padding: 35px 0 10px 0;
+}
+
+
+/* HERO SECTION */
+.hero_section{
+    padding: 100px 0;
+}
+.hero_section .hero_info h1{
+    font-size: 80px;
+    font-family: Bebas Neue;
+    color: #FABE4C;
+    width: 70%;
+}
+.hero_section .hero_info span{
+    font-size: 80px;
+    font-family: Bebas Neue;
+    color: #363958;
+}
+.hero_section .hero_info p{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #3E3E3E;
+    font-weight: 400;
+    width: 70%;
+}
+.hero_section .hero_info a img{
+    width: 24px;
+    height: auto;
+}
+.hero_section .hero_img {
+    display: flex;
+    justify-content: center;
+}
+
+/* PRODUCTS  */
+.products_section{
+    padding: 25px 0;
+}
+.products_section .product_info {
+    padding: 30px;
+    background: #fdfff4;
+    border-radius: 25px;
+}
+.products_section h1{
+    font-family: Bebas Neue;
+    font-size: 48px;
+    color: #363958;
+    padding: 20px 0;
+}
+.product_img {
+    background-color: #F1F1F1;
+    padding: 35px;
+    border-radius: 25px;
+}
+.products_section .product_doc h2{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 26px;
+    color: #363958;
+    padding-top: 15px;
+}
+.products_section .product_doc p{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #3E3E3E;
+    width: 98%;
+}
+.products_section .buyer_option {
+    display: flex;
+    justify-content: space-between;
+}
+.products_section .buyer_option span{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 36px;
+    color: #FABE4C;
+
+}
+
+/* FEATURE SECTION  */
+.feature_section {
+    margin: 100px 0;
+}
+.feature_info {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+.feature_info .feature_img{
+    width: 82px;
+    height: auto;
+}
+.feature_doc {
+    margin-left: 40px;
+    width: 50%;
+}
+.feature_info h3{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    color: #363958;
+
+}
+.feature_info p{
+    font-family: Roboto;
+    font-size: 16px;
+    color: #3E3E3E;
+}
+.feature_img img {
+    width: 30%;
+}
